@@ -4,7 +4,7 @@ package designpatterns.flyweight;
  * Flyweight object interface
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:48:23
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:48:23
  */
 public interface ICoffee {
 	public void serveCoffee(CoffeeContext context);

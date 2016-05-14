@@ -3,7 +3,7 @@ package designpatterns.state;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:47:07
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:47:07
  */
 public interface State {
 	public void saySomething(StateContext sc);

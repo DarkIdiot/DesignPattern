@@ -3,7 +3,7 @@ package designpatterns.decorator;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:40:20
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:40:20
  */
 public abstract class Girl {
 	String description = "no particular";

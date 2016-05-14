@@ -3,7 +3,7 @@ package designpatterns.strategy;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:52:43
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:52:43
  */
 public interface Strategy {
 	// defind a method for police to process speeding case.

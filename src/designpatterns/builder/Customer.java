@@ -3,22 +3,22 @@ package designpatterns.builder;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç5:18:31
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ5:18:31
  */
 
-// ¿Í»§
+// å®¢æˆ·
 public class Customer {
 	public static void main(String[] args) {
 		Waiter waiter = new Waiter();
 		StarbucksBuilder coffeeBuilder = new CoffeeBuilder();
 
-		// Ò²¿ÉÒÔÓÃÅİ²èbuilderÆã²è
+		// ä¹Ÿå¯ä»¥ç”¨æ³¡èŒ¶builderæ²èŒ¶
 		StarbucksBuilder teaBuilder = new TeaBuilder();
 
 		waiter.setStarbucksBuilder(coffeeBuilder);
 		waiter.constructStarbucks();
 
-		// È¡µ½ÒûÁÏ
+		// å–åˆ°é¥®æ–™
 		Starbucks drink = waiter.getstarbucksDrink();
 
 	}

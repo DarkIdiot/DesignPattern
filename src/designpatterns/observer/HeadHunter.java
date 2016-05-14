@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:19:03
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:19:03
  */
 public class HeadHunter implements Subject {
 

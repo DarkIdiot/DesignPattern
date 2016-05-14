@@ -3,7 +3,7 @@ package designpatterns.memento;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:21:36
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:21:36
  */
 public class Life {
 	private String time;

@@ -3,7 +3,7 @@ package designpatterns.factory;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:03:49
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:03:49
  */
 public class Clinet {
 	public static void main(String[] args) {

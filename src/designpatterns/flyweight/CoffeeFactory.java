@@ -3,16 +3,16 @@ package designpatterns.flyweight;
 import java.util.HashMap;
 
 /**
- * ¹¤³§Àà
+ * å·¥å‚ç±»
  * 
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:49:56
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:49:56
  */
 public class CoffeeFactory {
 	private HashMap<String, Coffee> flavors = new HashMap<String, Coffee>();
 	/**
-	 * µ¥´¿ÏíÔª¹¤³§·½·¨
+	 * å•çº¯äº«å…ƒå·¥å‚æ–¹æ³•
 	 * 
 	 * @param flavorName
 	 * @return
@@ -26,7 +26,7 @@ public class CoffeeFactory {
 		return flavor;
 	}
 	/**
-	 * ¸´ºÏÏíÔª¹¤³§·½·¨
+	 * å¤åˆäº«å…ƒå·¥å‚æ–¹æ³•
 	 * 
 	 * @param flavorName
 	 * @return

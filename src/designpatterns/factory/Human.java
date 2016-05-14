@@ -3,7 +3,7 @@ package designpatterns.factory;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:01:40
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:01:40
  */
 public interface Human {
 	public void Talk();

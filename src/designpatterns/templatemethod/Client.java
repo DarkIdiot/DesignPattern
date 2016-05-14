@@ -3,18 +3,18 @@ package designpatterns.templatemethod;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:37:23
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:37:23
  */
 public class Client {
 	public static void main(String[] args) {
-		// ÉùÃ÷³éÏóÀà
+		// å£°æ˜æŠ½è±¡ç±»
 		AbstractClass c;
 
-		// ÓÃConcreteClassAÊµÀı»¯c
+		// ç”¨ConcreteClassAå®ä¾‹åŒ–c
 		c = new ConcreteClassA();
 		c.TemplateMethod();
 
-		// ÓÃConcreteClassBÊµÀı»¯c
+		// ç”¨ConcreteClassBå®ä¾‹åŒ–c
 		c = new ConcreteClassB();
 		c.TemplateMethod();
 

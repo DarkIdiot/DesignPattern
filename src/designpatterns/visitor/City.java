@@ -5,22 +5,22 @@ import java.util.ArrayList;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:15:40
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:33:31
  */
-public class City implements Element {
-
+class City implements Element {
+	 
 	ArrayList<Element> places = new ArrayList<Element>();
-
+ 
 	public City() {
 		places.add(new Museum());
 		places.add(new Park());
 	}
-
+ 
 	@Override
 	public void accept(Visitor visitor) {
 		System.out.println("City is accepting visitor.");
 		visitor.visit(this);
-
+ 
 		for (Element e : places) {
 			e.accept(visitor);
 		}

@@ -3,7 +3,7 @@ package designpatterns.abstractfactory;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç10:35:09
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ10:35:09
  */
 public class Computer {
 	private CPU cpu;

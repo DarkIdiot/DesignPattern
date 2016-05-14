@@ -8,7 +8,7 @@ import java.util.List;
  * 
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:40:38
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:40:38
  */  // in this example, suppose you use a switch to control computer
 public class Switch {
 	private List<Command> history = new ArrayList<Command>();

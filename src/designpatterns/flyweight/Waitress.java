@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:50:17
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:50:17
  */
 public class Waitress {
 	// coffee array
@@ -17,7 +17,7 @@ public class Waitress {
 	private static CoffeeFactory coffeeFactory;
 
 	/**
-	 * ´¦Àí¶©µ¥
+	 * å¤„ç†è®¢å•
 	 * 
 	 * @param flavorIn
 	 * @param table

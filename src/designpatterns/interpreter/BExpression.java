@@ -3,7 +3,7 @@ package designpatterns.interpreter;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:19:51
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:19:51
  */
 public class BExpression extends Expression {
 	public void interpret(Context context) {

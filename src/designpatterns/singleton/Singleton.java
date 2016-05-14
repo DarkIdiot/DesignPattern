@@ -1,15 +1,15 @@
 package designpatterns.singleton;
 
 /**
- * ÀÁººÊ½£¬Ò²ÊÇ³£ÓÃµÄĞÎÊ½¡£
+ * æ‡’æ±‰å¼ï¼Œä¹Ÿæ˜¯å¸¸ç”¨çš„å½¢å¼ã€‚
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç10:12:22
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ10:12:22
  */
 public class Singleton {
 	private static Singleton instance = null;
 	/**
-	 * Í¬Ê±Ö»ÄÜÓĞÒ»¸öÏß³ÌÀ´»ñÈ¡µ¥Àû
+	 * åŒæ—¶åªèƒ½æœ‰ä¸€ä¸ªçº¿ç¨‹æ¥è·å–å•åˆ©
 	 * @return
 	 */
 	public static synchronized Singleton getInstance() {

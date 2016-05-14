@@ -1,18 +1,18 @@
 package designpatterns.templatemethod;
 
 /**
- * ³éÏóÀà
+ * æŠ½è±¡ç±»
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:31:40
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:31:40
  */
 public abstract class AbstractClass
 {
-    // Ò»Ğ©³éÏóĞĞÎª£¬·Åµ½×ÓÀàÈ¥ÊµÏÖ
+    // ä¸€äº›æŠ½è±¡è¡Œä¸ºï¼Œæ”¾åˆ°å­ç±»å»å®ç°
     public abstract void PrimitiveOperation1();
     public abstract void PrimitiveOperation2();
 
-    // Ä£°å·½·¨£¬¸ø³öÁËÂß¼­µÄ¹Ç¼Ü£¬¶øÂß¼­µÄ×é³ÉÊÇÒ»Ğ©ÏàÓ¦µÄ³éÏó²Ù×÷£¬ËüÃÇÍÆ³Ùµ½×ÓÀàÈ¥ÊµÏÖ¡£
+    // æ¨¡æ¿æ–¹æ³•ï¼Œç»™å‡ºäº†é€»è¾‘çš„éª¨æ¶ï¼Œè€Œé€»è¾‘çš„ç»„æˆæ˜¯ä¸€äº›ç›¸åº”çš„æŠ½è±¡æ“ä½œï¼Œå®ƒä»¬æ¨è¿Ÿåˆ°å­ç±»å»å®ç°ã€‚
     public void TemplateMethod()
     {
         PrimitiveOperation1();

@@ -3,7 +3,7 @@ package designpatterns.mediator;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:12:47
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:12:47
  */
 public class ColleagueB extends Colleague {
 	public ColleagueB(IMediator mediator) {

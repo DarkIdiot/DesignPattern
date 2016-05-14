@@ -3,7 +3,7 @@ package designpatterns.proxyagent;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:31:14
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:31:14
  */
 public interface CheatingWife {
 	// think about what this kind of women can do

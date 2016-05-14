@@ -1,10 +1,10 @@
 package designpatterns.prototype;
 
 /**
- * Ô­ĞÍ
+ * åŸå‹
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:08:14
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:08:14
  */
 public interface Prototype {
 	void setSize(int x);

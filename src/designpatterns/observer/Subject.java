@@ -3,7 +3,7 @@ package designpatterns.observer;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:17:35
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:17:35
  */
 public interface Subject {
 	public void registerObserver(Observer o);

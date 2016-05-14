@@ -3,9 +3,9 @@ package designpatterns.builder;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç10:02:37
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ10:02:37
  */
-//´ı¹¹½¨²úÆ·
+//å¾…æ„å»ºäº§å“
 public class Starbucks {
 	private String size;
 	private String drink;

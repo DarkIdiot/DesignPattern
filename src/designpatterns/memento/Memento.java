@@ -3,7 +3,7 @@ package designpatterns.memento;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:22:54
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:22:54
  */
 public class Memento {
 	private final String time;

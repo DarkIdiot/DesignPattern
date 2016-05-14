@@ -3,7 +3,7 @@ package designpatterns.composite;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:24:19
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:24:19
  */
 public interface Component {
 	public void show();

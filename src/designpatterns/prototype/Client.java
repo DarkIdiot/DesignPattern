@@ -3,7 +3,7 @@ package designpatterns.prototype;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:11:29
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:11:29
  */
 public class Client {
 	public static void main(String args[]) throws CloneNotSupportedException {

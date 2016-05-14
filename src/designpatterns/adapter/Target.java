@@ -1,13 +1,13 @@
 package designpatterns.adapter;
 
 /**
- * ¶¨Òå¿Í»§¶ËÆÚ´ıµÄ½Ó¿Ú
+ * å®šä¹‰å®¢æˆ·ç«¯æœŸå¾…çš„æ¥å£
  * 
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:35:11
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:35:11
  */
 public abstract class Target {
-    /// Ê¹ÓÃabstractĞŞÊÎÒÔ±ã×ÓÀà¿ÉÒÔÖØĞ´
+    /// ä½¿ç”¨abstractä¿®é¥°ä»¥ä¾¿å­ç±»å¯ä»¥é‡å†™
     public abstract void Request();
 }

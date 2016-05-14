@@ -3,7 +3,7 @@ package designpatterns.observer;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:20:49
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:20:49
  */
 public class Client {
 	public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Client {
 		hh.registerObserver(new JobSeeker("Chris"));
 		hh.registerObserver(new JobSeeker("Jeff"));
 
-		// Ã¿´ÎÌí¼ÓÒ»¸ö¸öjob£¬ËùÓĞÕÒ¹¤×÷ÈË¶¼¿ÉÒÔµÃµ½Í¨Öª¡£
+		// æ¯æ¬¡æ·»åŠ ä¸€ä¸ªä¸ªjobï¼Œæ‰€æœ‰æ‰¾å·¥ä½œäººéƒ½å¯ä»¥å¾—åˆ°é€šçŸ¥ã€‚
 		hh.addJob("Google Job");
 		hh.addJob("Yahoo Job");
 	}

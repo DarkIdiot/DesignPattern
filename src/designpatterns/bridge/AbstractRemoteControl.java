@@ -3,7 +3,7 @@ package designpatterns.bridge;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:45:56
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:45:56
  */
 public abstract class AbstractRemoteControl {
 

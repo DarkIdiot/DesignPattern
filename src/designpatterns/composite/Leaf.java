@@ -3,7 +3,7 @@ package designpatterns.composite;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:25:54
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:25:54
  */
 public class Leaf implements Component {
 	String name;

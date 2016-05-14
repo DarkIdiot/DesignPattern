@@ -3,7 +3,7 @@ package designpatterns.mediator;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:11:57
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:11:57
  */
 public abstract class Colleague {
 	IMediator mediator;

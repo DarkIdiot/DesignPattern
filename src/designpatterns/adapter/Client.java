@@ -3,11 +3,11 @@ package designpatterns.adapter;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:39:03
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:39:03
  */
 public class Client {
 	public static void main(String[] args) {
-		 // ¶Ô¿Í»§¶ËÀ´Ëµ£¬µ÷ÓÃµÄ¾ÍÊÇTargetµÄRequest()
+		 // å¯¹å®¢æˆ·ç«¯æ¥è¯´ï¼Œè°ƒç”¨çš„å°±æ˜¯Targetçš„Request()
         Target target = new Adapter();
         target.Request();
 	}

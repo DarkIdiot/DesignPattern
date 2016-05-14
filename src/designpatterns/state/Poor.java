@@ -3,7 +3,7 @@ package designpatterns.state;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:49:08
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:49:08
  */
 public class Poor implements State {
 

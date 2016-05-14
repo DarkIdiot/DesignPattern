@@ -5,7 +5,7 @@ package designpatterns.command;
  * 
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:44:02
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:44:02
  */
 public class RestartCommand implements Command {
 

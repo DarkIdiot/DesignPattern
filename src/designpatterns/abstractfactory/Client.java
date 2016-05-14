@@ -3,7 +3,7 @@ package designpatterns.abstractfactory;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç10:35:39
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ10:35:39
  */
 public class Client {
 	public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Client {
 	}
 
 	public static CPUFactory createSpecificFactory() {
-		int sys = 1; // »ùÓÚÌØ¶¨ÒªÇó
+		int sys = 1; // åŸºäºç‰¹å®šè¦æ±‚
 		if (sys == 0)
 			return new AMDFactory();
 		else

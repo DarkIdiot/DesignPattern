@@ -3,7 +3,7 @@ package designpatterns.bridge;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:45:23
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:45:23
  */
 public class SonyTV implements ITV {
 	@Override

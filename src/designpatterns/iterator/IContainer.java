@@ -1,16 +1,16 @@
 package designpatterns.iterator;
 
 /**
- * ÈİÆ÷½Ó¿Ú
+ * å®¹å™¨æ¥å£
  * 
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:14:10
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:14:10
  */
 public interface IContainer {
 	
 	/**
-	 * Éú³Éµü´úÆ÷½Ó¿Ú
+	 * ç”Ÿæˆè¿­ä»£å™¨æ¥å£
 	 * @return
 	 */
 	public IIterator createIterator();

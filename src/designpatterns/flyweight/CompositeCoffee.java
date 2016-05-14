@@ -5,11 +5,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 /**
- * ¸´ÔÓµÄÏíÔª
+ * å¤æ‚çš„äº«å…ƒ
  * 
  * @author idiot
  * @version 1.0
- * @date 2016Äê1ÔÂ4ÈÕ ÉÏÎç9:05:45
+ * @date 2016å¹´1æœˆ4æ—¥ ä¸Šåˆ9:05:45
  */
 public class CompositeCoffee implements ICoffee {
 	
@@ -21,7 +21,7 @@ public class CompositeCoffee implements ICoffee {
 	
 	
 	/**
-	 * ÍâÔÌ×´Ì¬×÷Îª²ÎÊı´«Èëµ½·½·¨ÖĞ
+	 * å¤–è•´çŠ¶æ€ä½œä¸ºå‚æ•°ä¼ å…¥åˆ°æ–¹æ³•ä¸­
 	 */
 	@Override
 	public void serveCoffee(CoffeeContext context) {

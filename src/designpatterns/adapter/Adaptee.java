@@ -1,11 +1,11 @@
 package designpatterns.adapter;
 
 /**
- * ¶¨ÒåĞèÒªÊÊÅäµÄÀà
+ * å®šä¹‰éœ€è¦é€‚é…çš„ç±»
  * 
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:36:41
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:36:41
  */
 public class Adaptee {
 	public void SpecificRequest() {

@@ -3,7 +3,7 @@ package designpatterns.visitor;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:16:34
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:16:34
  */
 public class Park implements Element {
 	@Override

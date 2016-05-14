@@ -3,7 +3,7 @@ package designpatterns.chainofresponsibility;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:02:48
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:02:48
  */
 public class B extends Chain {
 	public B(int threshold) {

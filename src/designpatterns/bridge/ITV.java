@@ -3,7 +3,7 @@ package designpatterns.bridge;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:44:30
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:44:30
  */
 public interface ITV {
 	public void on();

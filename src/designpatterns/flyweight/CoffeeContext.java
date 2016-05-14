@@ -3,7 +3,7 @@ package designpatterns.flyweight;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:49:31
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:49:31
  */
 public class CoffeeContext {
 	private final int tableNumber;

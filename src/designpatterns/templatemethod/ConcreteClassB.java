@@ -1,20 +1,20 @@
 package designpatterns.templatemethod;
 
 /**
- * ¾ßÌåÀà£¬ÊµÏÖÁË³éÏóÀàÖĞµÄÌØ¶¨²½Öè
+ * å…·ä½“ç±»ï¼Œå®ç°äº†æŠ½è±¡ç±»ä¸­çš„ç‰¹å®šæ­¥éª¤
  * 
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:33:31
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:33:31
  */
 public class ConcreteClassB extends AbstractClass {
-	// ÓëConcreteClassAÖĞµÄÊµÏÖÂß¼­²»Í¬
+	// ä¸ConcreteClassAä¸­çš„å®ç°é€»è¾‘ä¸åŒ
 	@Override
 	public void PrimitiveOperation1() {
 		System.out.println("Implement operation 1 in Concreate class B.");
 	}
 
-	// ÓëConcreteClassAÖĞµÄÊµÏÖÂß¼­²»Í¬
+	// ä¸ConcreteClassAä¸­çš„å®ç°é€»è¾‘ä¸åŒ
 	@Override
 	public void PrimitiveOperation2() {
 		System.out.println("Implement operation 2 in Concreate class B.");

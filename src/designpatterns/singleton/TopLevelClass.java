@@ -3,30 +3,30 @@ package designpatterns.singleton;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç10:16:26
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ10:16:26
  */
-// ¶ÔµÚÒ»ĞĞstaticµÄÒ»Ğ©½âÊÍ
-// javaÔÊĞíÎÒÃÇÔÚÒ»¸öÀàÀïÃæ¶¨Òå¾²Ì¬Àà¡£±ÈÈçÄÚ²¿Àà£¨nested class£©¡£
-// °Ñnested class·â±ÕÆğÀ´µÄÀà½ĞÍâ²¿Àà¡£
-// ÔÚjavaÖĞ£¬ÎÒÃÇ²»ÄÜÓÃstaticĞŞÊÎ¶¥¼¶Àà£¨top level class£©¡£
-// Ö»ÓĞÄÚ²¿Àà¿ÉÒÔÎªstatic¡£
+// å¯¹ç¬¬ä¸€è¡Œstaticçš„ä¸€äº›è§£é‡Š
+// javaå…è®¸æˆ‘ä»¬åœ¨ä¸€ä¸ªç±»é‡Œé¢å®šä¹‰é™æ€ç±»ã€‚æ¯”å¦‚å†…éƒ¨ç±»ï¼ˆnested classï¼‰ã€‚
+// æŠŠnested classå°é—­èµ·æ¥çš„ç±»å«å¤–éƒ¨ç±»ã€‚
+// åœ¨javaä¸­ï¼Œæˆ‘ä»¬ä¸èƒ½ç”¨staticä¿®é¥°é¡¶çº§ç±»ï¼ˆtop level classï¼‰ã€‚
+// åªæœ‰å†…éƒ¨ç±»å¯ä»¥ä¸ºstaticã€‚
 public class TopLevelClass {
 	public static class SingletonTwo {
-		// ÔÚ×Ô¼ºÄÚ²¿¶¨Òå×Ô¼ºµÄÒ»¸öÊµÀı£¬Ö»¹©ÄÚ²¿µ÷ÓÃ
+		// åœ¨è‡ªå·±å†…éƒ¨å®šä¹‰è‡ªå·±çš„ä¸€ä¸ªå®ä¾‹ï¼Œåªä¾›å†…éƒ¨è°ƒç”¨
 		private static final SingletonTwo instance = new SingletonTwo();
 
 		private SingletonTwo() {
 			// do something
 		}
 
-		// ÕâÀïÌá¹©ÁËÒ»¸ö¹©Íâ²¿·ÃÎÊ±¾classµÄ¾²Ì¬·½·¨£¬¿ÉÒÔÖ±½Ó·ÃÎÊ
+		// è¿™é‡Œæä¾›äº†ä¸€ä¸ªä¾›å¤–éƒ¨è®¿é—®æœ¬classçš„é™æ€æ–¹æ³•ï¼Œå¯ä»¥ç›´æ¥è®¿é—®
 		public static SingletonTwo getInstance() {
 			return instance;
 		}
 	}
 
 	/**
-	 * Õâ¸öÄ£Ê½½«Í¬²½ÄÚÈİÏÂ·½µ½ifÄÚ²¿£¬Ìá¸ßÁËÖ´ĞĞµÄĞ§ÂÊ£¬²»±ØÃ¿´Î»ñ È¡¶ÔÏóÊ±¶¼½øĞĞÍ¬²½£¬Ö»ÓĞµÚÒ»´Î²ÅÍ¬²½£¬´´½¨ÁËÒÔºó¾ÍÃ»±ØÒªÁË¡£
+	 * è¿™ä¸ªæ¨¡å¼å°†åŒæ­¥å†…å®¹ä¸‹æ–¹åˆ°ifå†…éƒ¨ï¼Œæé«˜äº†æ‰§è¡Œçš„æ•ˆç‡ï¼Œä¸å¿…æ¯æ¬¡è· å–å¯¹è±¡æ—¶éƒ½è¿›è¡ŒåŒæ­¥ï¼Œåªæœ‰ç¬¬ä¸€æ¬¡æ‰åŒæ­¥ï¼Œåˆ›å»ºäº†ä»¥åå°±æ²¡å¿…è¦äº†ã€‚
 	 */
 	public static class SingletonOne {
 		private static SingletonOne instance = null;

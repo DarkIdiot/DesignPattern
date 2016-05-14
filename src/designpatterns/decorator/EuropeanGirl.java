@@ -3,7 +3,7 @@ package designpatterns.decorator;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:41:21
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:41:21
  */
 public class EuropeanGirl extends Girl {
 	public EuropeanGirl() {

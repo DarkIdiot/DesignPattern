@@ -3,7 +3,7 @@ package designpatterns.chainofresponsibility;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:04:36
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:04:36
  */
 public class ChainOfResponsibility {
 	public static Chain createChain() {

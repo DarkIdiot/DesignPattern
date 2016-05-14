@@ -3,14 +3,14 @@ package designpatterns.adapter;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:37:34
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:37:34
  */
 public class Adapter extends Target {
-	// ½¨Á¢Ò»¸öË½ÓĞµÄAdeptee¶ÔÏó
+	// å»ºç«‹ä¸€ä¸ªç§æœ‰çš„Adepteeå¯¹è±¡
     private Adaptee adaptee = new Adaptee();
 
     /**
-     *  Í¨¹ıÖØĞ´£¬±íÃæÉÏµ÷ÓÃRequest()·½·¨£¬±ä³ÉÁËÊµ¼Êµ÷ÓÃSpecificRequest()
+     *  é€šè¿‡é‡å†™ï¼Œè¡¨é¢ä¸Šè°ƒç”¨Request()æ–¹æ³•ï¼Œå˜æˆäº†å®é™…è°ƒç”¨SpecificRequest()
      */
     @Override
     public  void Request()

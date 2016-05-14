@@ -3,9 +3,9 @@ package designpatterns.builder;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç10:04:16
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ10:04:16
  */
-//Åİ²èbuilder
+//æ³¡èŒ¶builder
 public class TeaBuilder extends StarbucksBuilder {
 	public void buildSize() {
 		starbucks.setSize("large");

@@ -5,7 +5,7 @@ package designpatterns.flyweight;
  * 
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:48:57
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:48:57
  */
 public class Coffee implements ICoffee {
 	private final String flavor;

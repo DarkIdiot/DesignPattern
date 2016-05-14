@@ -3,7 +3,7 @@ package designpatterns.mediator;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ7ÈÕ ÉÏÎç12:11:10
+ * @date 2015å¹´12æœˆ7æ—¥ ä¸Šåˆ12:11:10
  */
 public class ConcreteMediator implements IMediator {
 

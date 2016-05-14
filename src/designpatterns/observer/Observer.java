@@ -3,7 +3,7 @@ package designpatterns.observer;
 /**
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:18:20
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:18:20
  */
 public interface Observer {
 	public void update(Subject s);

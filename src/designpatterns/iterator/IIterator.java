@@ -1,21 +1,21 @@
 package designpatterns.iterator;
 
 /**
- * ±éÀú½Ó¿Ú
+ * éå†æ¥å£
  * 
  * @author idiot
  * @version 1.0
- * @date 2015Äê12ÔÂ6ÈÕ ÏÂÎç11:13:46
+ * @date 2015å¹´12æœˆ6æ—¥ ä¸‹åˆ11:13:46
  */
 public interface IIterator {
 	/**
-	 * ÊÇ·ñ»¹ÓĞÏÂÒ»¸ö
+	 * æ˜¯å¦è¿˜æœ‰ä¸‹ä¸€ä¸ª
 	 * @return
 	 */
 	public boolean hasNext();
 	
 	/**
-	 * ÏÂÒ»¸öÔªËØ 
+	 * ä¸‹ä¸€ä¸ªå…ƒç´  
 	 * @return
 	 */
 	public Object next();
