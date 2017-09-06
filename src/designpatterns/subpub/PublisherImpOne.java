@@ -3,7 +3,7 @@ package designpatterns.subpub;
 /**  
  * @Description: 发布者实现类 
  * @author: darkidiot 
- * @date: 2016�?9�?29�? 下午5:10:00 
+ * @date: 2016年9月29日 下午5:10:00 
  */  
 public class PublisherImpOne<M> implements IPublisher<M>{  
     private String name;  
