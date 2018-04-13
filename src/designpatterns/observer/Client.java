@@ -20,6 +20,18 @@ public class Client {
     }
 }
 
+interface Observer {
+    void update(Subject s);
+}
+
+interface Subject {
+    void registerObserver(Observer o);
+
+    void removeObserver(Observer o);
+
+    void notifyAllObservers();
+}
+
 class HeadHunter implements Subject {
 
     // define a list of users, such as Mike, Bill, etc.
@@ -77,16 +89,4 @@ class JobSeeker implements Observer {
         // print job list
         System.out.println(s);
     }
-}
-
-interface Observer {
-    void update(Subject s);
-}
-
-interface Subject {
-    void registerObserver(Observer o);
-
-    void removeObserver(Observer o);
-
-    void notifyAllObservers();
 }

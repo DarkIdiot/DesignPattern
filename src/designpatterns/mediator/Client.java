@@ -48,6 +48,16 @@ class ColleagueB extends Colleague {
     }
 }
 
+interface IMediator {
+    void fight();
+
+    void talk();
+
+    void registerA(ColleagueA a);
+
+    void registerB(ColleagueB a);
+}
+
 class ConcreteMediator implements IMediator {
 
     ColleagueA talk;
@@ -70,14 +80,4 @@ class ConcreteMediator implements IMediator {
         System.out.println("Mediator is talking");
         // let the talk colleague do some stuff
     }
-}
-
-interface IMediator {
-    void fight();
-
-    void talk();
-
-    void registerA(ColleagueA a);
-
-    void registerB(ColleagueB a);
 }

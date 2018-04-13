@@ -17,6 +17,12 @@ public class Client {
     }
 }
 
+interface Prototype {
+    void setSize(int x);
+
+    void printSize();
+}
+
 class ConcreteObject implements Prototype, Cloneable {
 
     private int size;
@@ -39,11 +45,4 @@ class ConcreteObject implements Prototype, Cloneable {
     public ConcreteObject clone() throws CloneNotSupportedException {
         return (ConcreteObject) super.clone();
     }
-
-}
-
-interface Prototype {
-    void setSize(int x);
-
-    void printSize();
 }
