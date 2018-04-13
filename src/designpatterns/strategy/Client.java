@@ -20,3 +20,39 @@ public class Client {
 		s2.handleByPolice(10);
 	}
 }
+
+interface Strategy {
+    // defind a method for police to process speeding case.
+    void processSpeeding(int speed);
+}
+
+
+class HardPolice implements Strategy {
+
+	@Override
+	public void processSpeeding(int speed) {
+		System.out.println("Your speed is " + speed
+				+ ", and should get a ticket!");
+	}
+}
+
+class NicePolice implements Strategy {
+
+    @Override
+    public void processSpeeding(int speed) {
+        System.out.println("This is your first time, be sure don't do it again!");
+        System.out.println("Speed is "+speed);
+    }
+}
+
+class Situation {
+    private Strategy strategy;
+
+    public Situation(Strategy strategy) {
+        this.strategy = strategy;
+    }
+
+    public void handleByPolice(int speed) {
+        this.strategy.processSpeeding(speed);
+    }
+}
